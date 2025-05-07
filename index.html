@@ -1,10 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arte/Pinturas</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
+  <body class="bg-[#FFFF] max-w-7xl m-auto">
+    <header class="bg-[#FFFF] text-black text-center">
+      <div>
+        <h1 class="py-12 font-bold text-4xl text-center">Paintings</h1>
+        <img src="src/img/banner.png" alt="Banner de pintura">
+      </div>
+    </header>
+
+    <section>
+      <div class="grid lg:grid-cols-3 text-center py-12 gap-8 mx-4">
+      <div class="relative after:content-[''] after:block after:w-full after:h-[1px] after:bg-gray-300 after:my-6 lg:after:content-none">
+        <img src="src/img/icons/engine.svg" alt="" class="block mx-auto">
+        <h2 class="font-bold text-3xl">Ipsum consequat</h2>
+        <p class="text-[#2d2c2c66]">Nisl amet sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
+      </div>
+      <div class="relative after:content-[''] after:block after:w-full after:h-[1px] after:bg-gray-300 after:my-6 lg:after:content-none">
+        <img src="src/img/icons/lightning.svg" alt="" class="block mx-auto">
+        <h2 class="font-bold text-3xl">Ipsum consequat</h2>
+        <p class="text-[#2d2c2c66]">Nisl amet sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
+      </div>
+      <div>
+        <img src="src/img/icons/star.svg" alt="" class="block mx-auto">
+        <h2 class="font-bold text-3xl">Ipsum consequat</h2>
+        <p class="text-[#2d2c2c66]">Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
+      </div>
+    </div>
+    <div class="grid md:grid-cols-2 gap-4 max-w-150 m-auto text-white text-center">
+      <a href="" class="bg-red-600 py-3 rounded-md">Get Started</a>
+      <a href="" class="bg-black py-3 rounded-md">Learn More</a>
+    </div>
+    </section>
   </body>
 </html>
